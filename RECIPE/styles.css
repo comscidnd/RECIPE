@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    background-image: url("/img/bckg3.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 690px;
+    opacity: 90%;
+    font-family: "Montserrat", sans-serif;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    opacity: 100%;
+}
+
+header h1 {
+    font-size: 90px;
+    margin: 0;
+    padding-top: 75px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+header p{
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    padding-top: 5px;
+    line-height: 30px;
+}
+
+.recipes {
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    padding: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.recipes h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.recipes p {
+    font-size: 20px;
+}
+
+.recipes ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recipes li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.recipes li a:hover {
+    background-color: #f0e68c;
+    color: #9a0404;
+}
+
+/*SOUPS SECTION*/
+
+.soups {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+#soups h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.soup-list {
+    background-color: #f0e68c;
+    background-image: url(/img/lugaw-recipe-1.jpeg);
+    border-radius: 32px;
+    background-size: cover;
+    background-position: center;
+    padding: 75px;
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.soup-item1 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.soup-item1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.soups-need {
+    font-size: 20px;
+}
+
+/*SINIGANG SECTION*/
+
+.sinigang {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+#sinigang h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sinigang-list {
+    background-color: #f0e68c;
+    background-image: url(/img/sinigang-n-baboy2.jpg);
+    border-radius: 32px;
+    background-size: cover;
+    background-position: center;
+    padding: 75px;
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.sinigang-item1 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sinigang-item1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sinigang-need {
+    font-size: 20px;
+}
+
+/*ADOBO SECTION*/
+
+.adobo {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+#adobo h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.adobo-list {
+    background-color: #f0e68c;
+    background-image: url(/img/Tasty-and-Traditional-Filipino-Chicken-Adobo-1.png);
+    border-radius: 32px;
+    background-size: cover;
+    background-position: center;
+    padding: 75px;
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+}
+
+.adobo-item1 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.adobo-item1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.adobo-need {
+    font-size: 20px;
+}
+
+
+/*PAKSIW SECTION*/
+
+.paksiw {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+#paksiw h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.paksiw-list {
+    background-color: #f0e68c;
+    background-image: url(/img/PaksiwNaIsda-640.jpg);
+    border-radius: 32px;
+    background-size: cover;
+    background-position: center;
+    padding: 75px;
+    margin: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.paksiw-item1 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.paksiw-item1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.paksiw-need {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: burlywood;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+}
